@@ -1,0 +1,33 @@
+{
+  "name": "glm",
+  "module_name": "glm",
+  "version": "0.9.7.4",
+  "summary": "OpenGL Mathematics",
+  "description": "OpenGL Mathematics is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language specifications.",
+  "homepage": "http://glm.g-truc.net",
+  "license": {
+    "type": "MIT",
+    "file": "copying.txt"
+  },
+  "authors": {
+    "Christophe Riccio": "glm@g-truc.net"
+  },
+  "source": {
+    "git": "https://github.com/g-truc/glm.git",
+    "tag": "0.9.7.4"
+  },
+  "requires_arc": false,
+  "header_dir": "glm",
+  "header_mappings_dir": "glm",
+  "libraries": "c++",
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.7"
+  },
+  "source_files": "glm/**/*{.h,.hpp}",
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/glm"
+  },
+  "preserve_paths": "glm/**/*{.h,.hpp,.inl}",
+  "public_header_files": "glm/**/*{.h,.hpp,.inl}"
+}

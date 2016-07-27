@@ -1,0 +1,1 @@
+../../../GDLiveStreaming/GDLiveStreaming/Classes/GDLResolutionUtil.h

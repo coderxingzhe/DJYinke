@@ -1,0 +1,7 @@
+CLANG_MODULES_AUTOLINK = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = ${PODS_ROOT}/boost "${PODS_ROOT}/boost" $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GDLiveStreaming" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/UriParser-cpp" "${PODS_ROOT}/Headers/Public/VideoCore" "${PODS_ROOT}/Headers/Public/boost" "${PODS_ROOT}/Headers/Public/glm"
+LIBRARY_SEARCH_PATHS = $(PODS_ROOT)/glm
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GDLiveStreaming" -isystem "${PODS_ROOT}/Headers/Public/GPUImage" -isystem "${PODS_ROOT}/Headers/Public/UriParser-cpp" -isystem "${PODS_ROOT}/Headers/Public/VideoCore" -isystem "${PODS_ROOT}/Headers/Public/boost" -isystem "${PODS_ROOT}/Headers/Public/glm"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GDLiveStreaming" -l"GPUImage" -l"UriParser-cpp" -l"VideoCore" -l"c++" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "Foundation" -framework "OpenGLES" -framework "QuartzCore" -framework "VideoToolbox"
+PODS_ROOT = ${SRCROOT}/Pods
