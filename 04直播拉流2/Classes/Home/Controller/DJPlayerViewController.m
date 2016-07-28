@@ -81,9 +81,11 @@
     
     //加载xib
     self.bottomView = [DJPlayerBottomView bottomView];
-    _bottomView.frame = CGRectMake(0, djScreenH-44,djScreenW,44);
+    _bottomView.frame = CGRectMake(0, djScreenH-60,djScreenW,60);
     _bottomView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:_bottomView];
+    
+    NSLog(@"ooo%f",self.view.frame.size.width);
     
     
     //处理按钮的回调

@@ -12,30 +12,46 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlS-gs-RF0" userLabel="对话">
-                    <rect key="frame" x="10" y="10" width="40" height="40"/>
+                    <rect key="frame" x="10" y="18" width="40" height="40"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="U4e-oX-0v7"/>
-                        <constraint firstAttribute="width" constant="40" id="efh-6x-cKa"/>
+                        <constraint firstAttribute="height" constant="40" id="54v-zl-YZu"/>
+                        <constraint firstAttribute="width" constant="40" id="HOa-Ou-7bW"/>
                     </constraints>
                     <state key="normal" title="Button" image="mg_room_btn_liao_n"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8f-NG-vvp" userLabel="分享">
-                    <rect key="frame" x="181" y="12" width="40" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8f-NG-vvp" userLabel="分享">
+                    <rect key="frame" x="181" y="18" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="53q-mr-veg"/>
+                        <constraint firstAttribute="width" constant="40" id="XAI-Q4-uk5"/>
+                    </constraints>
                     <state key="normal" image="mg_room_btn_yinyue_h"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVg-NV-L3x" userLabel="关闭">
-                    <rect key="frame" x="272" y="12" width="40" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVg-NV-L3x" userLabel="关闭">
+                    <rect key="frame" x="272" y="18" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="AmH-I2-hKr"/>
+                        <constraint firstAttribute="width" constant="40" id="W99-jW-2hC"/>
+                    </constraints>
                     <state key="normal" image="mg_room_btn_guan_h"/>
                     <connections>
                         <action selector="canclePlay" destination="Tv4-I6-Ouh" eventType="touchUpInside" id="WYk-fY-8sS"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GX-GW-7KO" userLabel="消息">
-                    <rect key="frame" x="108" y="12" width="86" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GX-GW-7KO" userLabel="消息">
+                    <rect key="frame" x="133" y="18" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JTN-Nv-a2d"/>
+                        <constraint firstAttribute="width" constant="40" id="P49-di-cJ7"/>
+                    </constraints>
                     <state key="normal" image="mg_room_btn_xinxi_h"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBR-Qo-o3d" userLabel="礼物">
-                    <rect key="frame" x="215" y="12" width="59" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBR-Qo-o3d" userLabel="礼物">
+                    <rect key="frame" x="224" y="18" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JKu-tS-NYE"/>
+                        <constraint firstAttribute="width" constant="40" id="TAF-vO-SiD"/>
+                    </constraints>
                     <state key="normal" image="mg_room_btn_shan_h"/>
                     <connections>
                         <action selector="rotate" destination="Tv4-I6-Ouh" eventType="touchUpInside" id="hgk-FS-e4X"/>
@@ -44,12 +60,20 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="RlS-gs-RF0" firstAttribute="leading" secondItem="Tv4-I6-Ouh" secondAttribute="leading" constant="10" id="hDV-bs-rOI"/>
-                <constraint firstItem="RlS-gs-RF0" firstAttribute="top" secondItem="Tv4-I6-Ouh" secondAttribute="top" constant="10" id="qbg-bf-QZC"/>
+                <constraint firstItem="RlS-gs-RF0" firstAttribute="leading" secondItem="Tv4-I6-Ouh" secondAttribute="leading" constant="10" id="C55-fk-mIM"/>
+                <constraint firstAttribute="bottom" secondItem="X8f-NG-vvp" secondAttribute="bottom" constant="2" id="RLG-L3-vEQ"/>
+                <constraint firstAttribute="bottom" secondItem="9GX-GW-7KO" secondAttribute="bottom" constant="2" id="XSr-Qz-VHv"/>
+                <constraint firstItem="sVg-NV-L3x" firstAttribute="leading" secondItem="VBR-Qo-o3d" secondAttribute="trailing" constant="8" id="g0N-Io-kw0"/>
+                <constraint firstAttribute="trailing" secondItem="sVg-NV-L3x" secondAttribute="trailing" constant="8" id="gXy-LO-qJB"/>
+                <constraint firstAttribute="bottom" secondItem="sVg-NV-L3x" secondAttribute="bottom" constant="2" id="lGZ-ar-a97"/>
+                <constraint firstItem="VBR-Qo-o3d" firstAttribute="leading" secondItem="X8f-NG-vvp" secondAttribute="trailing" constant="3" id="qeo-B8-fRb"/>
+                <constraint firstItem="X8f-NG-vvp" firstAttribute="leading" secondItem="9GX-GW-7KO" secondAttribute="trailing" constant="8" id="sVe-EW-EK7"/>
+                <constraint firstAttribute="bottom" secondItem="VBR-Qo-o3d" secondAttribute="bottom" constant="2" id="wfa-89-Fb7"/>
+                <constraint firstAttribute="bottom" secondItem="RlS-gs-RF0" secondAttribute="bottom" constant="2" id="ylc-oE-dpq"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="85" y="132"/>
+            <point key="canvasLocation" x="267" y="144"/>
         </view>
     </objects>
     <resources>

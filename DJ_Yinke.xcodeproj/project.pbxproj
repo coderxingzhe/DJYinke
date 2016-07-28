@@ -67,15 +67,12 @@
 		222F3CDB1D4673130087AE19 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 222F3CD21D4673130087AE19 /* SVProgressHUD.bundle */; };
 		222F3CDC1D4673130087AE19 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 222F3CD41D4673130087AE19 /* SVProgressHUD.m */; };
 		222F3CE11D4673690087AE19 /* DJNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 222F3CDF1D4673690087AE19 /* DJNetTool.m */; };
-		2267808A1D46E74000E84652 /* DJPlayerBottomView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 226780891D46E74000E84652 /* DJPlayerBottomView2.xib */; };
-		2267808D1D46E87100E84652 /* DJPlayerBottomView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267808C1D46E87100E84652 /* DJPlayerBottomView2.m */; };
 		226780A41D46F90A00E84652 /* DJCamerasBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 226780A31D46F90A00E84652 /* DJCamerasBottomView.m */; };
 		226780A61D46F92300E84652 /* DJCamearBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 226780A51D46F92300E84652 /* DJCamearBottomView.xib */; };
 		226780B81D470BFC00E84652 /* DJPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226780B71D470BFC00E84652 /* DJPreViewController.m */; };
 		226780BC1D470DA700E84652 /* DJPreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 226780BB1D470DA700E84652 /* DJPreViewController.xib */; };
 		226780BF1D472A5300E84652 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 226780BE1D472A5300E84652 /* UIImage+Image.m */; };
 		228C004B1D3BDF7F00AB98EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C004A1D3BDF7F00AB98EF /* main.m */; };
-		228C00541D3BDF7F00AB98EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228C00521D3BDF7F00AB98EF /* Main.storyboard */; };
 		228C00561D3BDF7F00AB98EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228C00551D3BDF7F00AB98EF /* Assets.xcassets */; };
 		228C00591D3BDF7F00AB98EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228C00571D3BDF7F00AB98EF /* LaunchScreen.storyboard */; };
 		228C00651D3BE6C800AB98EF /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228C00641D3BE6C800AB98EF /* IJKMediaFramework.framework */; };
@@ -209,9 +206,6 @@
 		222F3CDE1D4673690087AE19 /* DJNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJNetTool.h; sourceTree = "<group>"; };
 		222F3CDF1D4673690087AE19 /* DJNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJNetTool.m; sourceTree = "<group>"; };
 		222F3CE01D4673690087AE19 /* WWAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWAPI.h; sourceTree = "<group>"; };
-		226780891D46E74000E84652 /* DJPlayerBottomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJPlayerBottomView2.xib; sourceTree = "<group>"; };
-		2267808B1D46E87100E84652 /* DJPlayerBottomView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPlayerBottomView2.h; sourceTree = "<group>"; };
-		2267808C1D46E87100E84652 /* DJPlayerBottomView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPlayerBottomView2.m; sourceTree = "<group>"; };
 		226780A21D46F90A00E84652 /* DJCamerasBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCamerasBottomView.h; sourceTree = "<group>"; };
 		226780A31D46F90A00E84652 /* DJCamerasBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCamerasBottomView.m; sourceTree = "<group>"; };
 		226780A51D46F92300E84652 /* DJCamearBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJCamearBottomView.xib; sourceTree = "<group>"; };
@@ -222,7 +216,6 @@
 		226780BE1D472A5300E84652 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		228C00461D3BDF7F00AB98EF /* DJ_Yinke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJ_Yinke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228C004A1D3BDF7F00AB98EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		228C00531D3BDF7F00AB98EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228C00551D3BDF7F00AB98EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228C00581D3BDF7F00AB98EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		228C005A1D3BDF7F00AB98EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -319,9 +312,6 @@
 				2207C9751D44BCA1003DF0B6 /* DJPlayerBottomView.xib */,
 				2207C9771D44BCC1003DF0B6 /* DJPlayerBottomView.h */,
 				2207C9781D44BCC1003DF0B6 /* DJPlayerBottomView.m */,
-				226780891D46E74000E84652 /* DJPlayerBottomView2.xib */,
-				2267808B1D46E87100E84652 /* DJPlayerBottomView2.h */,
-				2267808C1D46E87100E84652 /* DJPlayerBottomView2.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -770,7 +760,7 @@
 				228C00681D3BE78D00AB98EF /* VideoToolbox.framework */,
 				228C00661D3BE77900AB98EF /* libz.tbd */,
 				228C00641D3BE6C800AB98EF /* IJKMediaFramework.framework */,
-				228C00481D3BDF7F00AB98EF /* 04直播拉流2 */,
+				228C00481D3BDF7F00AB98EF /* 04直播拉流 */,
 				228C00471D3BDF7F00AB98EF /* Products */,
 				7BF8D308BEC8333CCA13F073 /* Pods */,
 				EDC45FD53A65F9A811299F2F /* Frameworks */,
@@ -785,17 +775,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		228C00481D3BDF7F00AB98EF /* 04直播拉流2 */ = {
+		228C00481D3BDF7F00AB98EF /* 04直播拉流 */ = {
 			isa = PBXGroup;
 			children = (
 				221552F21D4473D200D2B759 /* AppDelegate.m */,
 				221552621D4473D200D2B759 /* Classes */,
 				228C00571D3BDF7F00AB98EF /* LaunchScreen.storyboard */,
-				228C00521D3BDF7F00AB98EF /* Main.storyboard */,
 				228C005A1D3BDF7F00AB98EF /* Info.plist */,
 				228C00551D3BDF7F00AB98EF /* Assets.xcassets */,
 				228C00491D3BDF7F00AB98EF /* Supporting Files */,
 			);
+			name = "04直播拉流";
 			path = "04直播拉流2";
 			sourceTree = "<group>";
 		};
@@ -891,8 +881,6 @@
 				226780BC1D470DA700E84652 /* DJPreViewController.xib in Resources */,
 				2207C9761D44BCA1003DF0B6 /* DJPlayerBottomView.xib in Resources */,
 				228C00561D3BDF7F00AB98EF /* Assets.xcassets in Resources */,
-				228C00541D3BDF7F00AB98EF /* Main.storyboard in Resources */,
-				2267808A1D46E74000E84652 /* DJPlayerBottomView2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -980,7 +968,6 @@
 				2215532E1D4473D200D2B759 /* UIImage+GIF.m in Sources */,
 				221553181D4473D200D2B759 /* AFURLRequestSerialization.m in Sources */,
 				221553171D4473D200D2B759 /* AFURLConnectionOperation.m in Sources */,
-				2267808D1D46E87100E84652 /* DJPlayerBottomView2.m in Sources */,
 				226780B81D470BFC00E84652 /* DJPreViewController.m in Sources */,
 				222F3CD81D4673130087AE19 /* AsyncUdpSocket.m in Sources */,
 				221553381D4473D200D2B759 /* DJTabbarController.m in Sources */,
@@ -1020,14 +1007,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		228C00521D3BDF7F00AB98EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				228C00531D3BDF7F00AB98EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		228C00571D3BDF7F00AB98EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

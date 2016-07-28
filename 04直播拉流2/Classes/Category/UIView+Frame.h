@@ -19,7 +19,7 @@
 @property CGFloat dj_screenH;
 
 //一些宏
-#define djScreenW [UIScreen mainScreen].bounds.size.height
+#define djScreenW [UIScreen mainScreen].bounds.size.width
 #define djScreenH [UIScreen mainScreen].bounds.size.height
 
 

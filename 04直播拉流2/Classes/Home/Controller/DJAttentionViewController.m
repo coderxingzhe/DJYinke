@@ -14,7 +14,8 @@
 
 @implementation DJAttentionViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"welcome_1"]];
     imageView.frame = self.view.bounds;
