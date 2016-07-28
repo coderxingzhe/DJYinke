@@ -4,7 +4,7 @@
 使用须知:
 ##1打开项目会报缺失IJK文件的错误
  
- 由于IJK框架过大,上传很慢很慢,请从360云下载我已打包好的IJK,已编译,拖入即可用
+ 由于IJKMediaFramwork过大,上传很慢很慢,请从360云下载我已打包好的IJK,已编译,拖入即可用
  
  https://yunpan.cn/c6QyHNLXJTPRy （提取码：c9f4）
  
