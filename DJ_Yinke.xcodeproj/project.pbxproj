@@ -56,7 +56,6 @@
 		221553361D4473D200D2B759 /* DJCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221552DB1D4473D200D2B759 /* DJCameraController.m */; };
 		221553371D4473D200D2B759 /* DJNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221552E51D4473D200D2B759 /* DJNavViewController.m */; };
 		221553381D4473D200D2B759 /* DJTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221552E71D4473D200D2B759 /* DJTabbarController.m */; };
-		221553391D4473D200D2B759 /* DJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221552ED1D4473D200D2B759 /* DJMineViewController.m */; };
 		2215533A1D4473D200D2B759 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221552F21D4473D200D2B759 /* AppDelegate.m */; };
 		222F3CD51D4673130087AE19 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 222F3CC51D4673130087AE19 /* GCDAsyncSocket.m */; };
 		222F3CD61D4673130087AE19 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 222F3CC71D4673130087AE19 /* GCDAsyncUdpSocket.m */; };
@@ -199,8 +198,6 @@
 		221552E51D4473D200D2B759 /* DJNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJNavViewController.m; sourceTree = "<group>"; };
 		221552E61D4473D200D2B759 /* DJTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTabbarController.h; sourceTree = "<group>"; };
 		221552E71D4473D200D2B759 /* DJTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTabbarController.m; sourceTree = "<group>"; };
-		221552EC1D4473D200D2B759 /* DJMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMineViewController.h; sourceTree = "<group>"; };
-		221552ED1D4473D200D2B759 /* DJMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMineViewController.m; sourceTree = "<group>"; };
 		221552F11D4473D200D2B759 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		221552F21D4473D200D2B759 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/Other/AppDelegate.m; sourceTree = "<group>"; };
 		222F3CC41D4673130087AE19 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
@@ -697,8 +694,6 @@
 		221552EB1D4473D200D2B759 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				221552EC1D4473D200D2B759 /* DJMineViewController.h */,
-				221552ED1D4473D200D2B759 /* DJMineViewController.m */,
 				2280BEB41D4BB90D009B4D25 /* DJMeController.h */,
 				2280BEB51D4BB90D009B4D25 /* DJMeController.m */,
 			);
@@ -1050,7 +1045,6 @@
 				221553191D4473D200D2B759 /* AFURLResponseSerialization.m in Sources */,
 				224170831D4A3CEB00A7D849 /* MASViewConstraint.m in Sources */,
 				2215533A1D4473D200D2B759 /* AppDelegate.m in Sources */,
-				221553391D4473D200D2B759 /* DJMineViewController.m in Sources */,
 				221553211D4473D200D2B759 /* UIRefreshControl+AFNetworking.m in Sources */,
 				221553341D4473D200D2B759 /* NSObject+YYModel.m in Sources */,
 				224170811D4A3CEB00A7D849 /* MASLayoutConstraint.m in Sources */,

@@ -138,6 +138,7 @@
 
 - (void)addChildVC
 {
+    
     //home
     DJHomeViewController *homeVC = [[DJHomeViewController alloc] init];
     DJNavViewController *navVC = [[DJNavViewController alloc] initWithRootViewController:homeVC];
