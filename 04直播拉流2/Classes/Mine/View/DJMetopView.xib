@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="U1H-sM-0DZ" customClass="DJMetopView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_new_bg_live" translatesAutoresizingMaskIntoConstraints="NO" id="R9J-Hv-Wdf">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="映客号:149876577" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80d-pP-fND">
+                    <rect key="frame" x="108" y="135" width="104" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="83k-hR-3eJ"/>
+                        <constraint firstAttribute="width" constant="104" id="cXZ-EG-dHG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnX-pq-C31">
+                    <rect key="frame" x="171" y="260" width="45" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="4ih-Hg-fMq"/>
+                        <constraint firstAttribute="width" constant="45" id="XAK-Ye-9vE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="粉丝4"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSm-qz-96V" userLabel="中线">
+                    <rect key="frame" x="160" y="265" width="1" height="25"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="8G4-Nc-YYb"/>
+                        <constraint firstAttribute="width" constant="1" id="CQu-aC-bVt"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTg-fG-ddI">
+                    <rect key="frame" x="105" y="260" width="45" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="1ps-df-FP9"/>
+                        <constraint firstAttribute="width" constant="45" id="tjk-mp-qMs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="关注6"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQr-Ky-QAP" userLabel="搜索">
+                    <rect key="frame" x="10" y="20" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Aef-Dz-BZC"/>
+                        <constraint firstAttribute="width" constant="30" id="eRn-Ew-aKg"/>
+                    </constraints>
+                    <state key="normal" image="card_search"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="送出钻石 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkz-Th-5zz">
+                    <rect key="frame" x="126" y="20" width="67" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="PXp-dt-uGd"/>
+                        <constraint firstAttribute="width" constant="67" id="puA-0X-CJC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkh-uB-klo" userLabel="编辑">
+                    <rect key="frame" x="280" y="20" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="ce3-xN-hwr"/>
+                        <constraint firstAttribute="width" constant="30" id="xA9-Vc-SAs"/>
+                    </constraints>
+                    <state key="normal" image="me_btn_edit_h_"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纪年2046" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brL-o5-Q8N">
+                    <rect key="frame" x="130" y="153" width="60" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Baz-LE-biq"/>
+                        <constraint firstAttribute="width" constant="60" id="KN7-wS-OLq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_panda" translatesAutoresizingMaskIntoConstraints="NO" id="2eW-HJ-Kzw">
+                    <rect key="frame" x="122" y="50" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="ipc-um-JRj"/>
+                        <constraint firstAttribute="width" constant="75" id="m11-pG-5j9"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2eW-HJ-Kzw" firstAttribute="top" secondItem="U1H-sM-0DZ" secondAttribute="top" constant="50" id="3BU-1w-fe2"/>
+                <constraint firstItem="brL-o5-Q8N" firstAttribute="top" secondItem="80d-pP-fND" secondAttribute="bottom" constant="8" id="7qp-p0-jL0"/>
+                <constraint firstItem="dQr-Ky-QAP" firstAttribute="leading" secondItem="U1H-sM-0DZ" secondAttribute="leading" constant="10" id="B4G-DG-Fo9"/>
+                <constraint firstItem="brL-o5-Q8N" firstAttribute="centerX" secondItem="U1H-sM-0DZ" secondAttribute="centerX" id="BBO-jo-dlU"/>
+                <constraint firstItem="rkz-Th-5zz" firstAttribute="top" secondItem="U1H-sM-0DZ" secondAttribute="top" constant="20" id="Bn6-Uw-1lr"/>
+                <constraint firstItem="R9J-Hv-Wdf" firstAttribute="leading" secondItem="U1H-sM-0DZ" secondAttribute="leading" id="DXF-s1-ANj"/>
+                <constraint firstItem="2eW-HJ-Kzw" firstAttribute="centerX" secondItem="U1H-sM-0DZ" secondAttribute="centerX" id="Gay-Hs-F52"/>
+                <constraint firstItem="R9J-Hv-Wdf" firstAttribute="top" secondItem="U1H-sM-0DZ" secondAttribute="top" id="JMS-xq-Lqd"/>
+                <constraint firstItem="bTg-fG-ddI" firstAttribute="bottom" secondItem="U1H-sM-0DZ" secondAttribute="bottom" constant="-10" id="KYt-go-5Qb"/>
+                <constraint firstItem="80d-pP-fND" firstAttribute="top" secondItem="2eW-HJ-Kzw" secondAttribute="bottom" constant="10" id="OZr-Xp-xF4"/>
+                <constraint firstItem="xkh-uB-klo" firstAttribute="top" secondItem="U1H-sM-0DZ" secondAttribute="top" constant="20" id="PhI-W9-VgU"/>
+                <constraint firstAttribute="bottom" secondItem="bSm-qz-96V" secondAttribute="bottom" constant="10" id="Ts1-zx-8p3"/>
+                <constraint firstItem="bSm-qz-96V" firstAttribute="centerX" secondItem="U1H-sM-0DZ" secondAttribute="centerX" id="cfD-6b-9zb"/>
+                <constraint firstAttribute="trailing" secondItem="xkh-uB-klo" secondAttribute="trailing" constant="10" id="dmQ-cH-VEh"/>
+                <constraint firstItem="rkz-Th-5zz" firstAttribute="centerX" secondItem="U1H-sM-0DZ" secondAttribute="centerX" id="g02-dM-JfT"/>
+                <constraint firstItem="SnX-pq-C31" firstAttribute="leading" secondItem="bSm-qz-96V" secondAttribute="trailing" constant="10" id="g5h-5g-MeA"/>
+                <constraint firstItem="dQr-Ky-QAP" firstAttribute="top" secondItem="U1H-sM-0DZ" secondAttribute="top" constant="20" id="gOO-HM-eqR"/>
+                <constraint firstAttribute="bottom" secondItem="SnX-pq-C31" secondAttribute="bottom" constant="10" id="k3v-Co-kX7"/>
+                <constraint firstItem="R9J-Hv-Wdf" firstAttribute="height" secondItem="U1H-sM-0DZ" secondAttribute="height" id="phg-wM-QFX"/>
+                <constraint firstItem="80d-pP-fND" firstAttribute="centerX" secondItem="U1H-sM-0DZ" secondAttribute="centerX" id="tJM-F7-1us"/>
+                <constraint firstItem="bSm-qz-96V" firstAttribute="leading" secondItem="bTg-fG-ddI" secondAttribute="trailing" constant="10" id="vv5-F4-BD8"/>
+                <constraint firstItem="R9J-Hv-Wdf" firstAttribute="width" secondItem="U1H-sM-0DZ" secondAttribute="width" id="yu8-1N-JbA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconView" destination="2eW-HJ-Kzw" id="ikr-mv-s7z"/>
+            </connections>
+            <point key="canvasLocation" x="336" y="7"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_panda" width="550" height="550"/>
+        <image name="card_search" width="15" height="15"/>
+        <image name="me_btn_edit_h_" width="30" height="30"/>
+        <image name="me_new_bg_live" width="320" height="225"/>
+    </resources>
+</document>

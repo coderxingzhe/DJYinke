@@ -234,7 +234,7 @@ static NSString *cellID = @"cell";
     
     //添加到控制器view,让控件显示出来.
     [self.view addSubview:self.collectionView];
-    
+    collectionView.scrollsToTop = NO;
     
     //设置收藏视图的分页等属性
     _collectionView.pagingEnabled = YES;

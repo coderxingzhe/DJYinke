@@ -10,6 +10,8 @@
 #import "DJHomeViewController.h"
 #import "DJCameraController.h"
 #import "DJMineViewController.h"
+#import "DJMeController.h"
+
 #import "DJNavViewController.h"
 #import "DJPreViewController.h"
 #import "UIImage+Image.h"
@@ -145,7 +147,7 @@
     DJNavViewController *navVC2 = [[DJNavViewController alloc] initWithRootViewController:cameraVC];
     
     //me
-    DJMineViewController *mineVC = [[DJMineViewController alloc] init];
+    DJMeController *mineVC = [[DJMeController alloc] init];
     DJNavViewController *navVC3 = [[DJNavViewController alloc] initWithRootViewController:mineVC];
     
     //添加
