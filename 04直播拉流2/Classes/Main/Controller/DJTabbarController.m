@@ -9,7 +9,6 @@
 #import "DJTabbarController.h"
 #import "DJHomeViewController.h"
 #import "DJCameraController.h"
-#import "DJMineViewController.h"
 #import "DJMeController.h"
 
 #import "DJNavViewController.h"
@@ -119,7 +118,7 @@
     cameraVC.tabBarItem.enabled = NO;
     
     //ME
-    DJMineViewController *meVC = self.viewControllers[2];
+    DJMeController *meVC = self.viewControllers[2];
     meVC.tabBarItem.image = [UIImage imageNamed:@"tab_me"];
     meVC.tabBarItem.selectedImage = [UIImage imageWithOriginalRenderingMode:@"tab_me_p"];
     
