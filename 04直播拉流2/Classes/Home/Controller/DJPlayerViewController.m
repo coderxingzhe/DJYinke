@@ -27,18 +27,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    
     self.view.backgroundColor = [UIColor whiteColor];
     
     //开始播放
     [self beginPlay];
     
-    
-    //搭建加载背景
+    //加载背景
     [self setupBgImg];
-    
     
     //搭建头部栏
     [self setupTopView];

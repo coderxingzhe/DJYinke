@@ -11,6 +11,8 @@
 #import "DJPlayerCell.h"
 #import "DJPlayerViewController.h"
 #import "DJNewViewController.h"
+#import "ODRefreshControl.h"
+#import "UIView+Frame.h"
 
 #define scale 618/480
 static NSString *ID = @"cell";
@@ -36,10 +38,13 @@ static NSString *ID = @"cell";
     // Do any additional setup after loading the view.
     
     //加载数据
-    [self loadData];//重新走一遍数据源方法
+    [self loadData];
     
     //添加tableView
     [self setupTableView];
+    
+    //加载下拉刷新
+    [self addRefresh];
 }
 
 //加载数据
@@ -63,17 +68,39 @@ static NSString *ID = @"cell";
 
 - (void)setupTableView
 {
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 25,djScreenW , djScreenH) style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
     //tableView.rowHeight = self.view.bounds.size.width * (640/480);
     tableView.rowHeight = [UIScreen mainScreen].bounds.size.width * scale +1;
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    tableView.showsVerticalScrollIndicator = NO;
+    //tableView.backgroundColor = [UIColor redColor];
     [self.view addSubview:tableView];
     _tableView = tableView;
     //注册cell
     [self.tableView registerClass:[DJPlayerCell class] forCellReuseIdentifier:ID];
     
+    //让列表不延伸至tabbar
+    self.extendedLayoutIncludesOpaqueBars = NO;
+    self.edgesForExtendedLayout = UIRectEdgeBottom | UIRectEdgeLeft | UIRectEdgeRight;
+}
+
+- (void)addRefresh
+{
+    ODRefreshControl *refreshControl = [[ODRefreshControl alloc] initInScrollView:self.tableView];
+    [refreshControl addTarget:self action:@selector(dropViewDidBeginRefreshing:) forControlEvents:UIControlEventValueChanged];
+}
+
+
+- (void)dropViewDidBeginRefreshing:(ODRefreshControl *)refreshControl
+{
+    double delayInSeconds = 3.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [refreshControl endRefreshing];
+    });
 }
 
 
