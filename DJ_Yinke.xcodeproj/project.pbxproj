@@ -90,7 +90,6 @@
 		228C004B1D3BDF7F00AB98EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C004A1D3BDF7F00AB98EF /* main.m */; };
 		228C00561D3BDF7F00AB98EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228C00551D3BDF7F00AB98EF /* Assets.xcassets */; };
 		228C00591D3BDF7F00AB98EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228C00571D3BDF7F00AB98EF /* LaunchScreen.storyboard */; };
-		228C00651D3BE6C800AB98EF /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228C00641D3BE6C800AB98EF /* IJKMediaFramework.framework */; };
 		228C00671D3BE77900AB98EF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 228C00661D3BE77900AB98EF /* libz.tbd */; };
 		228C00691D3BE78D00AB98EF /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228C00681D3BE78D00AB98EF /* VideoToolbox.framework */; };
 		60D939DA9F449A5D0EDBC909 /* libPods-DJ_Yinke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E1AB8D59BB698774B5B5BF /* libPods-DJ_Yinke.a */; };
@@ -267,7 +266,6 @@
 		228C00551D3BDF7F00AB98EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228C00581D3BDF7F00AB98EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		228C005A1D3BDF7F00AB98EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		228C00641D3BE6C800AB98EF /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		228C00661D3BE77900AB98EF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		228C00681D3BE78D00AB98EF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		3D88CF8519E42F3C72F5CC91 /* Pods-DJ_Yinke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJ_Yinke.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJ_Yinke/Pods-DJ_Yinke.release.xcconfig"; sourceTree = "<group>"; };
@@ -281,7 +279,6 @@
 			files = (
 				228C00691D3BE78D00AB98EF /* VideoToolbox.framework in Frameworks */,
 				228C00671D3BE77900AB98EF /* libz.tbd in Frameworks */,
-				228C00651D3BE6C800AB98EF /* IJKMediaFramework.framework in Frameworks */,
 				60D939DA9F449A5D0EDBC909 /* libPods-DJ_Yinke.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -832,7 +829,6 @@
 			children = (
 				228C00681D3BE78D00AB98EF /* VideoToolbox.framework */,
 				228C00661D3BE77900AB98EF /* libz.tbd */,
-				228C00641D3BE6C800AB98EF /* IJKMediaFramework.framework */,
 				228C00481D3BDF7F00AB98EF /* 04直播拉流 */,
 				228C00471D3BDF7F00AB98EF /* Products */,
 				7BF8D308BEC8333CCA13F073 /* Pods */,
